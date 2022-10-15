@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="./static/pics/home_thumbnail.png">
+    <link type="text/css" href="{{ url_for('static', filename='css/styles.css')}}" rel="stylesheet">
+    <title>{{title}}</title>
+</head>
+<body>
+<div class="home">
+     {%- block mainmenu -%}
+    <ul class="mainmenu text">
+        {% for m in menu -%}
+        <li>{{m}}</a></li>
+        {% endfor -%}
+    </ul>
+        {%endblock mainmenu -%}
+
+    <p class="text">Objective: Looking for a position as a
+        software developer in the organization where I can utilize my soft skills,
+        software programming, boost the knowledge I already possess
+        and learn the traits of a workplace to gain experience.</p>
+</div>
+
+</body>
+</html>

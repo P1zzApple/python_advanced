@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.home {
+    background-color: #DBE2EF;
+  	height: 90%;
+  	width: 90%;
+	border:solid;
+	border-width: 4px;
+	border-color: #112D4E;
+	padding: 15px;
+	margin: 25px;
+}
+
+.photo{
+float: left;
+}
+
+.center {
+margin: auto;
+width: 80%;
+padding: 10px;
+}
+
+.bigtext {
+font-size: 2em;
+float: left;
+font-family: Audiowide;
+margin-right: 7px;
+}
+
+.text {
+font-size: 1em;
+font-family: Audiowide;
+margin-right: 7px;
+}
